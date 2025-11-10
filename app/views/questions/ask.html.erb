@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Stupid Coaching</h1>
+  <form action="/answer" data-turbo="false" method="get">
+    <label for="question">Your question</label>
+    <input type="text" id="question" name="question">
+    <input class="btn btn-primary" type="submit" value="Ask!<%= params[:question] %>">
+  </form>
+</div>
